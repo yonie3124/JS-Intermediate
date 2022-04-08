@@ -55,7 +55,7 @@ for (let i = 1; i <= 135; i++) {
 
 
 let fibonacci =[0,1];
-let sum =1;
+sum =1;
 for (let i = 2; i < 10; i++) {
     fibonacci[i] = fibonacci[i-2] + fibonacci[i-1];
     sum +=fibonacci[i];
